@@ -1,0 +1,218 @@
+/* 共通指定 common---------*/
+
+/*1,全体のフォントサイズ----------*/
+body{
+  font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.7;/*文字間*/
+}
+
+/*2,リンクの指定-----------------*/
+a{
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+  line-height: 2.5;/*文字間*/
+
+
+}
+a:hover{
+  color: #FF9900;
+}
+
+/*3,全体のレイアウト-------------*/
+
+#wrapper{
+    max-width: 1400px;
+    width: 100%;
+    /*height: 4010px;*/
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+}
+
+#top{
+  float: right;
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+
+#top>video{
+  z-index: 50;
+  position: absolute;
+}
+
+#top>.copyimg{
+  z-index: 100;
+  position: absolute;
+  right: 55px;
+  top: 77px;
+}
+
+#top>.scrollbtn{
+  position: absolute;
+  bottom: 40px;
+  left: 45%;
+  z-index: 100;
+}
+
+#bgwrap {
+  background: url(../img/background.jpg) no-repeat;
+  height: 4000px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  position: fixed;
+  z-index: 500;
+}
+
+#logo{
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+#gnav {
+position: fixed;
+
+}
+
+.navBorder {
+  background-color: #fff;
+  height: 2px;
+  width: 900px;
+  -moz-transform: rotate(-65deg);
+  -webkit-transform: rotate(-65deg);
+  -o-transform: rotate(-65deg);
+  -ms-transform: rotate(-65deg);
+  transform: rotate(-65deg);
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: -262px;
+}
+
+#gnav>ul{
+  margin-left: 50px;
+  position: absolute;
+  left: 110px;
+  top: 76px;
+}
+
+#gnav li:nth-child(2){
+  text-indent: -16px;
+}
+#gnav li:nth-child(3){
+  text-indent: -32px;
+}
+
+
+
+#gnav li a{
+  line-height: 1.7;
+}
+
+/*#gnav .service:hover .submenu{
+  display: block;
+}*/
+
+#gnav .submenu{
+  display: none;
+}
+
+
+
+#bgwrap {
+  position: relative;
+  top: 800px;
+}
+
+
+
+/*contents---------*/
+
+
+
+#SERVICE{
+}
+
+#SERVICE h2{
+  font-size: 30px;
+}
+
+.title{
+  display: flex;
+}
+
+#title01{
+}
+
+#raight_img ul{
+  width:1400px;
+  overflow: hidden;
+}
+
+#raight_img li{
+  float: left;
+}
+#flex{
+  /*display: flex;*/
+}
+
+
+#SERVICE{
+width: 100%;
+height: 840px;
+position: relative;
+z-index: 200;
+}
+
+.menulogo{
+  position: absolute;
+  top: 0;
+}
+#PICKUP{
+  position: relative;
+}
+
+.pickimg{
+  width: 100%;
+  height: 261px;
+  display: flex;
+
+}
+.awa{
+background: rgba(73, 80, 170, 0.65);
+}
+
+.info{
+  width:
+}
+/*一旦真ん中に並べたい*/
+#raight_img{
+  position: absolute;
+  right: 0;
+}
+
+
+#flesh{
+  position: absolute;
+  right:  460px;
+  top: 520px;
+}
+
+#img755{
+  position: absolute;
+  right: 67px;
+  top: 520px;
+}
+
+#serect{
+  position: absolute;
+  right: 429px;
+  top: 783px;
+}
