@@ -18,7 +18,7 @@ a{
 
 }
 a:hover{
-  color: #FF9900;
+  color: #7fbe25;
 }
 
 /*3,全体のレイアウト-------------*/
@@ -119,16 +119,28 @@ position: fixed;
   text-indent: -48px;
 }
 
-.service li:nth-child(2){
+.submenu li:nth-child(1){
+  text-indent: -20px;
+}
+.submenu li:nth-child(2){
+  text-indent: -32px;
+}
+
+.submenu li:nth-child(3){
   text-indent: -48px;
+}
+.submenu li:nth-child(4){
+  text-indent: -64px;
+}
+.submenu li:nth-child(5){
+  text-indent: -70px;
 }
 
 .hoverBorder {
  width: 147px;
  height: 30px;
- background-color: #7fbe25;
- transform: skew(-25deg);
- opacity:0;
+  background-image: none;
+color: white;
  position:absolute;
  bottom:0;
  left:-10px;
