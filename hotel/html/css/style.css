@@ -1,0 +1,118 @@
+/* 共通指定 common---------*/
+
+/*1,全体のフォントサイズ----------*/
+body{
+  font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;/*文字間*/
+}
+
+/*2,リンクの指定-----------------*/
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover{
+  color: #FF9900;
+}
+
+/*3,全体のレイアウト-------------*/
+#wrapper{
+}
+
+/* header-----------*/
+#mainvisual{
+    background: url(../img/main.jpg);
+    background-size: cover;
+    height: 645px;
+    overflow: hidden;
+}
+header{
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 45px;
+
+}
+/* nav--------------*/
+#gnav{
+  margin-top: 40px;
+}
+#gnav ul{
+  text-align: right;
+  margin: 0;
+  padding: 0;
+}
+#gnav li{
+  width: 150px;
+  display:inline-block;
+}
+#gnav a{
+  font-size: 19px;
+  letter-spacing: 1.5px;
+  font-family:"ヒラギノ明朝 ProN W3","HiraMinProN-W3","HG明朝E","ＭＳ Ｐ明朝","MS PMincho","MS 明朝",serif;
+}
+/*---------gnav-------*/
+
+#language{
+  width: 1170px;
+}
+#language ul{
+  text-align: right;
+  }
+
+#language li{
+  width: 70px;
+  display:inline-block;
+}
+#language a{
+  font-size: 10px;
+  font-family: "Hiragino Kaku Gothic ProN" , "游ゴシック" , "Yu Gothic" , "メイリオ";
+  display: block;
+  text-align: right;
+}
+/*second contents---------*/
+#second_contents{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.welcome{
+  width: 514px;
+}
+.welcome img{
+  margin-top: 65px;
+  margin-bottom: 65px;
+
+}
+.welcome p{
+  font-size: 16px;
+  width: 405px;
+}
+#reservation{
+  width: 514px;
+  height: 400px;
+  background-color: #eeeeee;
+}
+
+/*contents---------*/
+
+#titlebase{
+  background-color: #2f2e66;
+  background-size: cover;
+  height: 160px;
+  overflow: hidden;
+  display: flex;
+}
+/*プラン背景帯*/
+
+#title01{
+  width: 1170px;
+  margin: 0 auto;
+}
+#title01{
+  margin-top: 70px;
+}
+#title01 p{
+  color: #ffffff;
+}
